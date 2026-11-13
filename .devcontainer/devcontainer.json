@@ -1,10 +1,5 @@
 {
   "name": "Engineering Modeling Lab",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
-  "features": {
-    "ghcr.io/mathworks/devcontainer-features/matlab:1": {
-      "products": "MATLAB"
-    }
-  },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y octave openscad"
 }
